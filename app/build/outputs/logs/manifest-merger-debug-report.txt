@@ -1,0 +1,174 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [:contactsautocompletetextview] F:\BASE\contactsautocompletetextview\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-beta01.aar\e7b54c34ad7edc4909880d9628c7d0d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7f7562354df2c4d57c4bc1ed191ee277\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-beta01.aar\df50fc52f81a9587038a31c3a7a970d7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-beta01.aar\300e56ce593ed1f2fd8d07ae88555f03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-beta01.aar\f98ad0f954211b4138932dd88e03733d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-beta01.aar\b41e8c2f0ed23401fab09e10bf92c53b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-beta01.aar\9ec159111ef806005c2d4a82894394cf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-beta01.aar\ff1b144b283858ae15e76c81a79e746b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-beta01.aar\ae0c8a1a10d7f8057d1f2c72597c5d1d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-beta01.aar\ab2c698be0be7d11bd752b9b29171d15\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-beta01.aar\cd3c4b9ec69262d2a881a830e201b90b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-beta01.aar\c948e7fb635067e834520c82572ed80d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-beta01.aar\b063acd3af582bf434859f3e03dce08d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-beta01.aar\33db4411b6accbe5b6651c3b82bf058b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-beta01.aar\45ac7b4bd16632923e3aaf3f8cd3d8d3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-beta01.aar\324fc5cb897afa99c9d41c3f17a74ca0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cursoradapter:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-beta01.aar\e9934c33a191946d957f51663de82e8f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\11f5d4fbeaee168b254b2f03635d8f06\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-beta01.aar\0e73b27b48f46d6ead6289b4be84d8b3\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:documentfile:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-beta01.aar\5ce9b1dc7dd29b9b0d17a37876b79ef8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-beta01.aar\7dcb2f43b149f1046c70cf260aad7c59\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\print-28.0.0-beta01.aar\fa84fa4e803e9de9a3fb95337dfa8be3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\38683058409d1822b303998c6531a2b6\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a37ef5101bc637555c22139e4405c3de\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\563dc346bacad0b1817e7d42568bd2be\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-beta01.aar\db571fee6f374d626fc3cfa7942f683b\AndroidManifest.xml:17:1-22:12
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:3:5-41
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.SEND_SMS
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.CALL_PHONE
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:5:5-69
+	android:name
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:5:22-66
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:6:22-72
+uses-permission#android.permission.READ_CONTACTS
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:7:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:8:22-70
+application
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:9:5-23:19
+MERGED from [:contactsautocompletetextview] F:\BASE\contactsautocompletetextview\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-14:19
+MERGED from [:contactsautocompletetextview] F:\BASE\contactsautocompletetextview\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7f7562354df2c4d57c4bc1ed191ee277\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7f7562354df2c4d57c4bc1ed191ee277\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-beta01.aar\324fc5cb897afa99c9d41c3f17a74ca0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-beta01.aar\324fc5cb897afa99c9d41c3f17a74ca0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-beta01.aar\0e73b27b48f46d6ead6289b4be84d8b3\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-beta01.aar\0e73b27b48f46d6ead6289b4be84d8b3\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-beta01.aar\324fc5cb897afa99c9d41c3f17a74ca0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:13:9-40
+activity#gaurav.bholla.directdialer.MainActivity
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:label
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:16:13-45
+	android:name
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:15:13-67
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\BASE\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+MERGED from [:contactsautocompletetextview] F:\BASE\contactsautocompletetextview\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:contactsautocompletetextview] F:\BASE\contactsautocompletetextview\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-beta01.aar\e7b54c34ad7edc4909880d9628c7d0d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-beta01.aar\e7b54c34ad7edc4909880d9628c7d0d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7f7562354df2c4d57c4bc1ed191ee277\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\7f7562354df2c4d57c4bc1ed191ee277\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-beta01.aar\df50fc52f81a9587038a31c3a7a970d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-beta01.aar\df50fc52f81a9587038a31c3a7a970d7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-beta01.aar\300e56ce593ed1f2fd8d07ae88555f03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-beta01.aar\300e56ce593ed1f2fd8d07ae88555f03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-beta01.aar\f98ad0f954211b4138932dd88e03733d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-beta01.aar\f98ad0f954211b4138932dd88e03733d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-beta01.aar\b41e8c2f0ed23401fab09e10bf92c53b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-beta01.aar\b41e8c2f0ed23401fab09e10bf92c53b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-beta01.aar\9ec159111ef806005c2d4a82894394cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-beta01.aar\9ec159111ef806005c2d4a82894394cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-beta01.aar\ff1b144b283858ae15e76c81a79e746b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-beta01.aar\ff1b144b283858ae15e76c81a79e746b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-beta01.aar\ae0c8a1a10d7f8057d1f2c72597c5d1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-beta01.aar\ae0c8a1a10d7f8057d1f2c72597c5d1d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-beta01.aar\ab2c698be0be7d11bd752b9b29171d15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-beta01.aar\ab2c698be0be7d11bd752b9b29171d15\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-beta01.aar\cd3c4b9ec69262d2a881a830e201b90b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-beta01.aar\cd3c4b9ec69262d2a881a830e201b90b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-beta01.aar\c948e7fb635067e834520c82572ed80d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-beta01.aar\c948e7fb635067e834520c82572ed80d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-beta01.aar\b063acd3af582bf434859f3e03dce08d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-beta01.aar\b063acd3af582bf434859f3e03dce08d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-beta01.aar\33db4411b6accbe5b6651c3b82bf058b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-beta01.aar\33db4411b6accbe5b6651c3b82bf058b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-beta01.aar\45ac7b4bd16632923e3aaf3f8cd3d8d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-beta01.aar\45ac7b4bd16632923e3aaf3f8cd3d8d3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-beta01.aar\324fc5cb897afa99c9d41c3f17a74ca0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-beta01.aar\324fc5cb897afa99c9d41c3f17a74ca0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-beta01.aar\e9934c33a191946d957f51663de82e8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-beta01.aar\e9934c33a191946d957f51663de82e8f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\11f5d4fbeaee168b254b2f03635d8f06\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\11f5d4fbeaee168b254b2f03635d8f06\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-beta01.aar\0e73b27b48f46d6ead6289b4be84d8b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-beta01.aar\0e73b27b48f46d6ead6289b4be84d8b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-beta01.aar\5ce9b1dc7dd29b9b0d17a37876b79ef8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-beta01.aar\5ce9b1dc7dd29b9b0d17a37876b79ef8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-beta01.aar\7dcb2f43b149f1046c70cf260aad7c59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-beta01.aar\7dcb2f43b149f1046c70cf260aad7c59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\print-28.0.0-beta01.aar\fa84fa4e803e9de9a3fb95337dfa8be3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\print-28.0.0-beta01.aar\fa84fa4e803e9de9a3fb95337dfa8be3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\38683058409d1822b303998c6531a2b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\38683058409d1822b303998c6531a2b6\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a37ef5101bc637555c22139e4405c3de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a37ef5101bc637555c22139e4405c3de\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\563dc346bacad0b1817e7d42568bd2be\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\563dc346bacad0b1817e7d42568bd2be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-beta01.aar\db571fee6f374d626fc3cfa7942f683b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-beta01] C:\Users\gaura\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-beta01.aar\db571fee6f374d626fc3cfa7942f683b\AndroidManifest.xml:20:5-44
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml
+		ADDED from F:\BASE\app\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\app\src\main\AndroidManifest.xml

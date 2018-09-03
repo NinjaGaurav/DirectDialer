@@ -1,0 +1,13 @@
+#Sun Aug 05 19:40:03 IST 2018
+renamed.3=classes2.dex
+renamed.2=classes.dex
+renamed.1=classes3.dex
+renamed.0=classes4.dex
+base.3=F\:\\BASE\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_3c044f12a3106e3beb4012072e973abb3f36437e
+base.2=F\:\\BASE\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_1354ac3fbe27ea3bc5bcd23adb8f015745870319
+base.1=F\:\\BASE\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.1.1_6854bc54f12836e5fe74a0ffb9fa56370ef2cffa
+base.0=F\:\\BASE\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.1.1_91bc86c923a73f0df216c092a576c3e09b66bc1b
+file.3=F\:\\BASE\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_3c044f12a3106e3beb4012072e973abb3f36437e\\classes.dex
+file.2=F\:\\BASE\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_1354ac3fbe27ea3bc5bcd23adb8f015745870319\\classes.dex
+file.1=F\:\\BASE\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.1.1_6854bc54f12836e5fe74a0ffb9fa56370ef2cffa\\classes.dex
+file.0=F\:\\BASE\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.1.1_91bc86c923a73f0df216c092a576c3e09b66bc1b\\classes.dex

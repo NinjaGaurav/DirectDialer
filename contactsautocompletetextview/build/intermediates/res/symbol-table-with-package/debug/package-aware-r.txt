@@ -1,0 +1,26 @@
+com.gauravbholla.dd
+int attr colorOfData 0x7f040001
+int attr colorOfNames 0x7f040002
+int attr displayPhotoIfAvailable 0x7f040003
+int attr getTextPattern 0x7f040004
+int attr styleOfTypedLetters 0x7f040005
+int attr typeOfData 0x7f040006
+int attr typedLettersHaveDifferentStyle 0x7f040007
+int id bold 0x7f0c0001
+int id cell_data 0x7f0c0002
+int id cell_name 0x7f0c0003
+int id email 0x7f0c0004
+int id emailAndphone 0x7f0c0005
+int id phone 0x7f0c0006
+int id thumbnail_picture 0x7f0c0007
+int id underlined 0x7f0c0008
+int layout layout_cell 0x7f0f0001
+int string app_name 0x7f150001
+int[] styleable PhoneNumberAutoComplete { 0x7f040001, 0x7f040002, 0x7f040003, 0x7f040004, 0x7f040005, 0x7f040006, 0x7f040007 }
+int styleable PhoneNumberAutoComplete_colorOfData 0
+int styleable PhoneNumberAutoComplete_colorOfNames 1
+int styleable PhoneNumberAutoComplete_displayPhotoIfAvailable 2
+int styleable PhoneNumberAutoComplete_getTextPattern 3
+int styleable PhoneNumberAutoComplete_styleOfTypedLetters 4
+int styleable PhoneNumberAutoComplete_typeOfData 5
+int styleable PhoneNumberAutoComplete_typedLettersHaveDifferentStyle 6
