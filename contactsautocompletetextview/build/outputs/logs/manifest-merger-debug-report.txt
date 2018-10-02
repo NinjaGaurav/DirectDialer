@@ -1,43 +1,43 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
+ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:2:5-34
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
+		ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:2:5-34
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-		ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+		ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-		ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+		ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:1-8:12
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:1:11-69
+		ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:4:5-6:19
+ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:4:5-6:19
 	android:label
-		ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:4:45-77
+		ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:4:45-77
 	android:allowBackup
-		ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml:4:18-44
+		ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml:4:18-44
 uses-sdk
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-		ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+		ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-		ADDED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
-		INJECTED from F:\DirectDialer\contactsautocompletetextview\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+		ADDED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
+		INJECTED from F:\BASE\contactsautocompletetextview\src\main\AndroidManifest.xml
