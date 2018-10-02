@@ -5,6 +5,7 @@ Direct Dialer is an app which is created specifically for smartphones with broke
     
 # Note 
 If you are using Android 6.0 (Marshmallow) or above you will receive **Force Close/Stopped working** message when you run the app for the **First Time**. To fix this, **open the App info from the Android Settings and grant all permissions manually; app will work fine.**
+It is recommended that you use [MessagEase Keyboard](https://play.google.com/store/apps/details?id=com.exideas.mekb&hl=en_IN) if you have a malfunctioned digitizer or broken screen.
 
 # Screenshots
 
