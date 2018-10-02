@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="F:\BASE\contactsautocompletetextview\src\main\res"/><source path="F:\BASE\contactsautocompletetextview\build\generated\res\rs\release"/><source path="F:\BASE\contactsautocompletetextview\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="F:\BASE\contactsautocompletetextview\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="F:\BASE\contactsautocompletetextview\src\main\res"><file name="layout_cell" path="F:\BASE\contactsautocompletetextview\src\main\res\layout\layout_cell.xml" qualifiers="" type="layout"/><file path="F:\BASE\contactsautocompletetextview\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="PhoneNumberAutoComplete">
+        <attr format="color" name="colorOfData"/>
+        <attr format="color" name="colorOfNames"/>
+        
+        <attr format="boolean" name="typedLettersHaveDifferentStyle"/>
+        <attr format="enum" name="styleOfTypedLetters">
+            <enum name="underlined" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+        <attr format="string" name="getTextPattern"/>
+        <attr format="boolean" name="displayPhotoIfAvailable"/>
+        <attr format="enum" name="typeOfData">
+            <enum name="phone" value="1"/>
+            <enum name="email" value="2"/>
+            <enum name="emailAndphone" value="3"/>
+        </attr>
+    </declare-styleable></file><file path="F:\BASE\contactsautocompletetextview\src\main\res\values\strings.xml" qualifiers=""><string name="app_name">ContactsAutoCompleteTextView</string></file></source><source path="F:\BASE\contactsautocompletetextview\build\generated\res\rs\release"/><source path="F:\BASE\contactsautocompletetextview\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="F:\BASE\contactsautocompletetextview\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="PhoneNumberAutoComplete"><attr format="color" name="colorOfData"/><attr format="color" name="colorOfNames"/><attr format="boolean" name="typedLettersHaveDifferentStyle"/><attr format="enum" name="styleOfTypedLetters">
+            <enum name="underlined" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr><attr format="string" name="getTextPattern"/><attr format="boolean" name="displayPhotoIfAvailable"/><attr format="enum" name="typeOfData">
+            <enum name="phone" value="1"/>
+            <enum name="email" value="2"/>
+            <enum name="emailAndphone" value="3"/>
+        </attr></declare-styleable></configuration></mergedItems></merger>
