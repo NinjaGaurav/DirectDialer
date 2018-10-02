@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:hint="Enter Phone Number"
         android:textStyle="bold"
-        android:id="@+id/coolStuff"/>
+        android:id="@+id/coolStuff"
+        android:enabled="false"/>
 
     <Button
 

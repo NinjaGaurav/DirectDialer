@@ -8,32 +8,32 @@ package com.gauravbholla.dd;
 
 public final class R {
     public static final class attr {
-        public static final int colorOfData = 0x7f020055;
-        public static final int colorOfNames = 0x7f020056;
-        public static final int displayPhotoIfAvailable = 0x7f02006d;
-        public static final int getTextPattern = 0x7f020089;
-        public static final int styleOfTypedLetters = 0x7f02010e;
-        public static final int typeOfData = 0x7f020142;
-        public static final int typedLettersHaveDifferentStyle = 0x7f020143;
+        public static final int colorOfData = 0x7f03008e;
+        public static final int colorOfNames = 0x7f03008f;
+        public static final int displayPhotoIfAvailable = 0x7f0300b2;
+        public static final int getTextPattern = 0x7f0300e7;
+        public static final int styleOfTypedLetters = 0x7f0301ae;
+        public static final int typeOfData = 0x7f03020e;
+        public static final int typedLettersHaveDifferentStyle = 0x7f03020f;
     }
     public static final class id {
-        public static final int bold = 0x7f070021;
-        public static final int cell_data = 0x7f070028;
-        public static final int cell_name = 0x7f070029;
-        public static final int email = 0x7f07003e;
-        public static final int emailAndphone = 0x7f07003f;
-        public static final int phone = 0x7f07006a;
-        public static final int thumbnail_picture = 0x7f070097;
-        public static final int underlined = 0x7f07009e;
+        public static final int bold = 0x7f080022;
+        public static final int cell_data = 0x7f080029;
+        public static final int cell_name = 0x7f08002a;
+        public static final int email = 0x7f080046;
+        public static final int emailAndphone = 0x7f080047;
+        public static final int phone = 0x7f080083;
+        public static final int thumbnail_picture = 0x7f0800c2;
+        public static final int underlined = 0x7f0800cf;
     }
     public static final class layout {
-        public static final int layout_cell = 0x7f09001d;
+        public static final int layout_cell = 0x7f0b002b;
     }
     public static final class string {
-        public static final int app_name = 0x7f0c0028;
+        public static final int app_name = 0x7f0e0028;
     }
     public static final class styleable {
-        public static final int[] PhoneNumberAutoComplete = { 0x7f020055, 0x7f020056, 0x7f02006d, 0x7f020089, 0x7f02010e, 0x7f020142, 0x7f020143 };
+        public static final int[] PhoneNumberAutoComplete = { 0x7f03008e, 0x7f03008f, 0x7f0300b2, 0x7f0300e7, 0x7f0301ae, 0x7f03020e, 0x7f03020f };
         public static final int PhoneNumberAutoComplete_colorOfData = 0;
         public static final int PhoneNumberAutoComplete_colorOfNames = 1;
         public static final int PhoneNumberAutoComplete_displayPhotoIfAvailable = 2;

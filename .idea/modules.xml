@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BASE.iml" filepath="$PROJECT_DIR$/BASE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DirectDialer.iml" filepath="$PROJECT_DIR$/DirectDialer.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/contactsautocompletetextview/contactsautocompletetextview.iml" filepath="$PROJECT_DIR$/contactsautocompletetextview/contactsautocompletetextview.iml" />
     </modules>
