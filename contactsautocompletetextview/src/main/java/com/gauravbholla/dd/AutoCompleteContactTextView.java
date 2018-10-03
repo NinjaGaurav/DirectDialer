@@ -374,4 +374,6 @@ public class AutoCompleteContactTextView extends AutoCompleteTextView implements
     public boolean isSomeoneSelected() {
         return selected != null;
     }
+
+
 }
