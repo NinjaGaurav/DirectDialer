@@ -6,6 +6,7 @@ Direct Dialer is an app which is created specifically for smartphones with broke
 # Note 
 If you are using Android 6.0 (Marshmallow) or above you will receive **Force Close/Stopped working** message when you run the app for the **First Time**. To fix this, **Press Back button/Cancel Button to get to the request permission dialogue box and grant all permissions; the app will work fine now.** See the animated GIF below for better understanding:
 ![Alt Text](https://github.com/NinjaGaurav/DirectDialer/blob/master/HowToFixFC.gif)
+*NB: GIF just loops infinitely but the problem is fixed.*
 # Screenshots
 
 ![Alt Text](https://github.com/NinjaGaurav/DirectDialer/blob/master/screenshots/2.jpeg)
