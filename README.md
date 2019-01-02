@@ -1,5 +1,6 @@
 # DirectDialer
-Direct Dialer is an app which is created specifically for smartphones with broken screens and malfunctioned digitizer which enables users to call, send SMS &amp; add contacts easily and in a hassle free manner.
+Direct Dialer is an app which is created specifically for smartphones with broken screens and malfunctioned digitizer which enables users to call, send SMS &amp; add contacts easily and in a hassle free manner.  
+Download ![MessagEase Keyboard](https://play.google.com/store/apps/details?id=com.exideas.mekb&hl=en) to resize or change position of the Keyboard/Numpad for better productivity. *Highly recommended/ essential depending on your device.*
 # Download the APK directly from:
     https://github.com/NinjaGaurav/DirectDialer/blob/master/app/build/outputs/apk/app-debug.apk
     
