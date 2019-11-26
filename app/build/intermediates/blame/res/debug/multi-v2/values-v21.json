@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\gaura\\Documents\\GitHub\\DirectDialer\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "F:\\BASE\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\gaura\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\57d01fd85fc2a03f275d5456204b39d3\\res\\values-v21\\values-v21.xml",
-                    "from": {
-                        "startLines": "2,10,18,26",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,484,910,1333",
-                        "endLines": "9,17,25,33",
-                        "endColumns": "10,10,10,10",
-                        "endOffsets": "479,905,1328,1763"
-                    },
-                    "to": {
-                        "startLines": "267,275,283,291",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "19758,20187,20613,21036",
-                        "endLines": "274,282,290,298",
-                        "endColumns": "10,10,10,10",
-                        "endOffsets": "20182,20608,21031,21466"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\gaura\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\819b0da28bb63fe17f65b54a1c983868\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\gaura\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-beta01.aar\\e7b54c34ad7edc4909880d9628c7d0d9\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\gaura\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\59c297e3a75e64a80e1c6e7b516e69c9\\res\\values-v21\\values-v21.xml",
+                    "source": "C:\\Users\\gaura\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0-beta01.aar\\324fc5cb897afa99c9d41c3f17a74ca0\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -52,12 +33,12 @@
                         "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,263,264,265,266,299,302",
+                        "startLines": "2,3,4,5,263,264,265,266,267,270",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,19262,19378,19504,19630,21471,21643",
-                        "endLines": "2,3,4,5,263,264,265,266,301,306",
+                        "startOffsets": "55,159,223,290,19262,19378,19504,19630,19758,19930",
+                        "endLines": "2,3,4,5,263,264,265,266,269,274",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,19373,19499,19625,19753,21638,21976"
+                        "endOffsets": "154,218,285,349,19373,19499,19625,19753,19925,20263"
                     }
                 }
             ]

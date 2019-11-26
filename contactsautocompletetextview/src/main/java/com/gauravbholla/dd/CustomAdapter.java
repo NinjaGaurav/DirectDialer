@@ -19,10 +19,6 @@ import java.io.InputStream;
 import java.util.ArrayList;
 
 /**
- * Created by laurentmeyer on 11/04/15.
- */
-
-/**
  * It's the simplest class possible: it just needs a context and returns the data you need with the people class
  */
 public abstract class CustomAdapter extends BaseAdapter implements Filterable {

@@ -4,9 +4,7 @@ import android.graphics.Bitmap;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 
-/**
- * Created by laurentmeyer on 11/04/15.
- */
+
 public class People {
     private Spanned name;
     private Spanned data;

@@ -20,9 +20,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by laurentmeyer on 02/03/15.
- */
 
 /**
  * Main class of the lib
@@ -374,6 +371,4 @@ public class AutoCompleteContactTextView extends AutoCompleteTextView implements
     public boolean isSomeoneSelected() {
         return selected != null;
     }
-
-
 }

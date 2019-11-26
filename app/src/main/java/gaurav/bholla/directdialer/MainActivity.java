@@ -8,16 +8,15 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.ContactsContract;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
-import android.telephony.SmsManager;
-import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import android.view.Menu;
+import android.telephony.SmsManager;
+
 
 import com.gauravbholla.dd.AutoCompleteContactTextView;
 
@@ -27,126 +26,104 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     //textView=editText
 
-
-    private final int MY_PERMISSIONS = 124;
+    String[] Permissions = {Manifest.permission.SEND_SMS, Manifest.permission.CALL_PHONE, Manifest.permission.READ_PHONE_STATE, Manifest.permission.READ_CONTACTS,Manifest.permission.WRITE_CONTACTS};
+    int Permission_All = 1;
     AutoCompleteContactTextView textView;
     EditText editText2;
     EditText editText3;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        beginPermission();
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        textView = findViewById(R.id.coolStuff);
-        editText3 = findViewById(R.id.enter_message);
-        editText2 = findViewById(R.id.enter_name);
+
+        if(!hasPermissions(this, Permissions)){
+            ActivityCompat.requestPermissions(this, Permissions, Permission_All);
+
+        }
+        else    //has all
+        {
+            setContentView(R.layout.activity_main);
+            textView = findViewById(R.id.coolStuff);
+            editText3 = findViewById(R.id.enter_message);
+            editText2 = findViewById(R.id.enter_name);
+        }
+
+    }
+
+    @Override
+    protected void onStart() {
+
+        super.onStart();
+
+        if(!hasPermissions(this, Permissions)){
+            ActivityCompat.requestPermissions(this, Permissions, Permission_All);
+        }
+
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
+@Override
+public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+
+    super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+    if (requestCode == Permission_All) {
+
+        if (grantResults.length > 0) {
+
+            boolean A = grantResults[0] == PackageManager.PERMISSION_GRANTED;
+            boolean B = grantResults[1] == PackageManager.PERMISSION_GRANTED;
+            boolean C = grantResults[2] == PackageManager.PERMISSION_GRANTED;
+            boolean D = grantResults[3] == PackageManager.PERMISSION_GRANTED;
+            boolean E = grantResults[4] == PackageManager.PERMISSION_GRANTED;
+            if (A&&B&&C&&D&&E)
+            {
+                setContentView(R.layout.activity_main);
+                textView = findViewById(R.id.coolStuff);
+                editText3 = findViewById(R.id.enter_message);
+                editText2 = findViewById(R.id.enter_name);
+            }
+            else
+            {
+                Toast.makeText(MainActivity.this,"Please Grant All Permissions!",Toast.LENGTH_LONG).show();
+            }
+        }
+
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        switch (id) {
-            case R.id.menu_phone:
-                textView.setType(AutoCompleteContactTextView.TYPE_OF_DATA.PHONE);
-                item.setChecked(true);
-                break;
-            case R.id.menu_mail:
-                item.setChecked(true);
-                textView.setType(AutoCompleteContactTextView.TYPE_OF_DATA.EMAIL);
-                break;
-            case R.id.menu_both:
-                item.setChecked(true);
-                textView.setType(AutoCompleteContactTextView.TYPE_OF_DATA.BOTH);
-                break;
-            case R.id.bold:
-                if (item.isChecked()) {
-                    item.setChecked(false);
-                    textView.changeStyle(AutoCompleteContactTextView.STYLE.NONE);
-                } else {
-                    item.setChecked(true);
-                    textView.changeStyle(AutoCompleteContactTextView.STYLE.BOLD);
+}
+
+
+    public boolean hasPermissions(Context context, String... permissions){
+
+        if(context!=null && permissions!=null){
+            for(String permission: permissions){
+                if(ActivityCompat.checkSelfPermission(context, permission)!=PackageManager.PERMISSION_GRANTED){
+                    return  false;
                 }
+            }
         }
         return true;
     }
 
-    /*   public void callContacts(View v)
-       {
-
-           Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-           startActivityForResult(intent, PICK_CONTACT);
-       }
-       public void onActivityResult(int reqCode, int resultCode, Intent data) {
-           super.onActivityResult(reqCode, resultCode, data);
-
-
-           switch (reqCode) {
-               case (PICK_CONTACT) :
-                   if (resultCode == Activity.RESULT_OK) {
-
-                       Uri contactData = data.getData();
-                       Cursor c =  managedQuery(contactData, null, null, null, null);
-                       if (c.moveToFirst()) {
-
-
-                           String id =c.getString(c.getColumnIndexOrThrow(ContactsContract.Contacts._ID));
-
-                           String hasPhone =c.getString(c.getColumnIndex(ContactsContract.Contacts.HAS_PHONE_NUMBER));
-
-                           if (hasPhone.equalsIgnoreCase("1")) {
-                               Cursor phones = getContentResolver().query(
-                                       ContactsContract.CommonDataKinds.Phone.CONTENT_URI,null,
-                                       ContactsContract.CommonDataKinds.Phone.CONTACT_ID +" = "+ id,
-                                       null, null);
-                               phones.moveToFirst();
-                               String cNumber = phones.getString(phones.getColumnIndex("data1"));
-
-                               Intent callIntent = new Intent(Intent.ACTION_CALL);
-
-                               callIntent.setData(Uri.parse("tel:"+cNumber));
-
-                               startActivity(callIntent);
-
-                           }
-
-                       }
-                   }
-                   break;
-           }
-       }
-       */
-    public void clear(View view) {
+    public void clear(View view)
+    {
         textView.setText("");
         editText2.setText("");
         editText3.setText("");
 
     }
-
     public void phoneCall(View view) {
 
         String number = textView.getText().toString();
-        if (number.length() < 1)
+        if(number.length()<1)
             Toast.makeText(this, "Enter Phone Number!", Toast.LENGTH_LONG).show();
         else {
             Intent callIntent = new Intent(Intent.ACTION_CALL);
 
             callIntent.setData(Uri.parse("tel:" + number));
 
-            // if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
             startActivity(callIntent);
-                return;
-           // }
-
         }
     }
 
@@ -219,78 +196,6 @@ public class MainActivity extends AppCompatActivity {
             }
 
             Toast.makeText(context, "Contact " + displayName + " added.", Toast.LENGTH_LONG).show();
-        }
-    }
-
-    public void beginPermission(){
-        if ((ActivityCompat.checkSelfPermission(this,
-                Manifest.permission.WRITE_CONTACTS)
-                != PackageManager.PERMISSION_GRANTED) && (ActivityCompat.checkSelfPermission(this,
-                Manifest.permission.CALL_PHONE)
-                != PackageManager.PERMISSION_GRANTED) && (ActivityCompat.checkSelfPermission(this,
-                Manifest.permission.SEND_SMS)
-                != PackageManager.PERMISSION_GRANTED) && (ActivityCompat.checkSelfPermission(this,
-                Manifest.permission.READ_PHONE_STATE)
-                != PackageManager.PERMISSION_GRANTED)&& (ActivityCompat.checkSelfPermission(this,
-                Manifest.permission.READ_CONTACTS)
-                != PackageManager.PERMISSION_GRANTED)) {
-
-            Log.i("1", "Permission is not granted");
-
-            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
-                    Manifest.permission.WRITE_CONTACTS) && (ActivityCompat.shouldShowRequestPermissionRationale(this,
-                    Manifest.permission.CALL_PHONE)) && (ActivityCompat.shouldShowRequestPermissionRationale(this,
-                    Manifest.permission.SEND_SMS)) && (ActivityCompat.shouldShowRequestPermissionRationale(this,
-                    Manifest.permission.READ_PHONE_STATE))&& (ActivityCompat.shouldShowRequestPermissionRationale(this,
-                    Manifest.permission.READ_CONTACTS))) {
-                Log.i("REQUEST","Requesting permission....");
-                ActivityCompat.requestPermissions(MainActivity.this,
-                        new String[]{Manifest.permission.WRITE_CONTACTS, Manifest.permission.CALL_PHONE, Manifest.permission.SEND_SMS, Manifest.permission.READ_PHONE_STATE, Manifest.permission.READ_CONTACTS },
-                        MY_PERMISSIONS);
-
-
-            } else {
-                ActivityCompat.requestPermissions(this,
-                        new String[]{Manifest.permission.WRITE_CONTACTS, Manifest.permission.CALL_PHONE, Manifest.permission.SEND_SMS, Manifest.permission.READ_PHONE_STATE,Manifest.permission.READ_CONTACTS },
-                        MY_PERMISSIONS);
-
-            }
-        } else {
-            Log.i("1","Permission Granted");
-            //TODO:Call Method which requires permission
-
-        }
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode,
-                                           String permissions[], int[] grantResults) {
-        switch (requestCode) {
-            case MY_PERMISSIONS: {
-
-                if (grantResults.length > 0
-                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-
-                    Log.i("1", "Permission is granted");
-                    //TODO: Imlement Permission Method
-
-                } else {
-                    Log.i("1", "Permission is again not granted");
-
-                    Snackbar mySnackbar = Snackbar.make(findViewById(android.R.id.content),
-                            "Please ennable the permissions", Snackbar.LENGTH_SHORT);
-                    mySnackbar.setAction("ENABLE", new View.OnClickListener() {
-                        @Override
-                        public void onClick(View view) {
-                            startActivity(new Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS, Uri.parse("package:" + BuildConfig.APPLICATION_ID)));
-
-                        }
-                    });
-                    mySnackbar.show();
-
-                }
-                return;
-            }
         }
     }
 
